@@ -3,6 +3,13 @@ body {
 	padding: 0;
 	background: #000;
 }
+h1{
+	color:rgb(54, 99, 54);
+	font-size: 60px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
 ul {
 position: absolute;
 top: 50%;

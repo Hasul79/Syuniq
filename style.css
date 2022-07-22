@@ -130,20 +130,20 @@ nav ul li a {
 	background-size: cover;
 }
 .img2 {
-	background-image:url('/img/70306751.jpg');
+	background-image:url('./img/70306751.jpg');
 	background-size: cover;
 }
 .img3 {
-	background-image:url('/img/shaqi-waterfall-in-sisian-syuniq-armenia-1062014828.jpg');
+	background-image:url('./img/shaqi-waterfall-in-sisian-syuniq-armenia-1062014828.jpg');
 	background-size: cover;
 	list-style: none;
 }
 .img4 {
-	background-image:url('/img/meghri.jpg');
+	background-image:url('./img/meghri.jpg');
 	background-size: cover;
 }
 .img5 {
-    background-image:url('/img/qaj.jpg') ;
+    background-image:url('./img/qaj.jpg') ;
 	background-size: cover;
 }
 .img6 {
