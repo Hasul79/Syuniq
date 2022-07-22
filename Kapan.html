@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="hy">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="/img/icon.jpg" type="icon">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+		integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="Kapan.css">
+	<title> Կապան </title>
+</head>
+
+<body>
+
+	<!-- Գլխավոր էջ -->
+	<div class="container">
+		<div class="navbar">
+			<img src="./img/Coat_of_arms_of_Armenia.svg.png" class="logo">
+			<nav>
+				<ul id="MenuItems">
+					<li><a href="http://127.0.0.1:5501/index.html">Գլխավոր էջ</a></li>
+					<li><a href="#">Ավանդապատում</a></li>
+					<li><a href="#">Տեղեկություն</a></li>
+					<li><a href="#">Տեսարժան վայրերը</a></li>
+					<li><a href="#">Կապ</a></li>
+				</ul>
+			</nav>
+			<img src="./menu.png " class="menu" onclick="menutoggle()">
+		</div>
+		
+			
+	<div class="content">
+		<audio controls style="display: none;" loop id="a">
+			<source src="./Im - Kapan.mp3"  >
+		</audio>		
+
+	<div class="box">
+		<span style="--i:1"><img src="./img/shatrvan.jpg"></span>
+		<span style="--i:2"><img src="./img/surb-mesrop-mashtots.jpg"></span>
+		<span style="--i:3"><img src="./img/norapsak aygi.jpg" ></span>
+		<span style="--i:4"><img src="./img/njdey.jpg" ></span>
+		<span style="--i:5"><img src="./img/kapan1.jpg" ></span>
+		<span style="--i:6"><img src="./img/kapan-city-syunik-region-armenia-night-park-fountains-beautiful-buildings-central-part-lights-life-nice-view-228000081.jpg"></span>
+		<span style="--i:7"><img src="./img/halizor.jpg"></span>
+		<span style="--i:8"><img src="./img/1509456955186708382.png"></span>
+		</div>
+     </div>   
+</div>
+
+	
+	
+
+
+
+
+			<!-- js for menutoggle -->
+			<script>
+				var MenuItems = document.getElementById("MenuItems");
+				MenuItems.style.maxHeight = "0px";
+				function menutoggle() {
+					if (MenuItems.style.maxHeight == "0px") {
+						MenuItems.style.maxHeight = "200px";
+					}
+					else {
+						MenuItems.style.maxHeight = "0px";
+					}
+				}
+
+				window.addEventListener("mouseover" , play);
+				window.addEventListener("click", play);
+				function play(){
+					document.getElementById("a").play();
+				}
+			</script>
+</body>
+
+</html>

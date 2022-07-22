@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@500;700;800&family=Noto+Serif+Armenian:wght@100;200;300;400;500;600;800&family=Sofia&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Noto Serif Armenian', serif;
+    font-family: 'Sofia', cursive;
+}
+body {
+	background-image:linear-gradient(  #e2c0e6b3,black, #a94ef4b3 )
+}
+section {
+	position: relative;
+	width:100%;
+	height: 100%;
+	padding: 20px;
+}
+.circle {
+	position: relative;
+	overflow: hidden;
+}
+.circle img {
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.circle.circle1 {
+	width: 200px;
+	height: 200px;
+	/* left: 0px; */
+	float: left;
+	border-radius: 50%;
+	margin: 20px;
+	shape-outside: circle();
+}
+.circle.circle2 {
+	width: 500px;
+	height: 500px;
+	float: right;
+	border-radius: 50%;
+	margin: 0 0 20px 0 ;
+	shape-outside: circle();
+}
+ .circle.circle3 {
+	width: 300px;
+	height: 200px;
+	float: left;
+	position: absolute;
+	top:380px;
+	left:10px;   
+	border-radius:20% 50% 10% 0;
+	margin: 20px;
+	shape-outside: circle();
+}
+.circle.circle4 {
+	width: 200px;
+	height: 200px;
+	float: right;
+	position: absolute;
+	right: 10px;
+	top: 390px; 
+	border-radius:  50% ;
+	margin: 20px;
+	shape-outside:circle();
+	
+} 
+section h2{
+	text-align: center;
+	letter-spacing: 5px;
+	color:blueviolet;
+	font-size:5em;
+	margin-top: auto;
+	 margin-bottom: 2px; 
+	text-shadow: 0 0 10px black,
+	             0 0 40px black;
+}
+section p{
+	color:rgb(213, 187, 238);
+	font-size: 17px;
+}
