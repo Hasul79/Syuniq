@@ -7,7 +7,7 @@
     font-family: 'Sofia', cursive;
 }
 body {
-	background-image:linear-gradient(  #e2c0e6b3,black, #a94ef4b3 )
+	background-image:linear-gradient(  to bottom,  #e2c0e6b3, #5d2294b3,#891ce2b3,#210c47 );
 }
 section {
 	position: relative;
@@ -28,56 +28,41 @@ section {
 	object-fit: cover;
 }
 .circle.circle1 {
-	width: 200px;
-	height: 200px;
-	/* left: 0px; */
+	width: 300px;
+	height: 300px;
 	float: left;
-	border-radius: 50%;
+	border-radius: 30%;
 	margin: 20px;
 	shape-outside: circle();
 }
 .circle.circle2 {
-	width: 500px;
-	height: 500px;
+	width: 450px;
+	height: 450px;
 	float: right;
 	border-radius: 50%;
-	margin: 0 0 20px 0 ;
+	margin: 10px ;
 	shape-outside: circle();
 }
- .circle.circle3 {
-	width: 300px;
-	height: 200px;
-	float: left;
-	position: absolute;
-	top:380px;
-	left:10px;   
-	border-radius:20% 50% 10% 0;
-	margin: 20px;
-	shape-outside: circle();
-}
-.circle.circle4 {
-	width: 200px;
-	height: 200px;
-	float: right;
-	position: absolute;
-	right: 10px;
-	top: 390px; 
-	border-radius:  50% ;
-	margin: 20px;
-	shape-outside:circle();
-	
-} 
+ 
 section h2{
 	text-align: center;
 	letter-spacing: 5px;
 	color:blueviolet;
 	font-size:5em;
 	margin-top: auto;
-	 margin-bottom: 2px; 
+	 margin-bottom: 1px; 
 	text-shadow: 0 0 10px black,
 	             0 0 40px black;
 }
 section p{
 	color:rgb(213, 187, 238);
 	font-size: 17px;
+}
+
+button:hover {
+	transform: scale(1.1);
+	background: blueviolet;
+	color:aliceblue;
+	
+	 
 }
