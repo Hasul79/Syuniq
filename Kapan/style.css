@@ -6,7 +6,7 @@
 /* Գլխավոր էջ */
 .container{
 	width: 100%;
-	min-height: 100vh;
+	min-height: 110vh;
 	/* background-image: linear-gradient(rgba(169, 78, 244, 0.7)),(rgba(226, 192, 230, 0.7)); */
 	color:#000;
 	background: linear-gradient( #e2c0e6b3, #a94ef4b3);

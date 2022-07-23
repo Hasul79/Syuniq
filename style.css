@@ -33,12 +33,16 @@ nav ul li {
 nav ul li a {
 	color:azure;
     text-decoration: none;
-	font-size: 16px;
+	font-size: 18px;
 	text-transform: uppercase; 
+	transition:  transform  0.2s;
+
 }
- nav ul li:hover {
+ nav  li a:hover {
 	transform: scale(1.1);
-	font-size:21px ;
+	font-size:20px ;
+	font-weight: 800;
+	
 }
 .menu {
 	width:45px;
