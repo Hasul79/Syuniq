@@ -133,20 +133,20 @@ nav ul li a {
 		font-size: 20px;
 		text-transform: uppercase;
 		margin-bottom: 5px;
-		transition: 0.5s;
+		transition: 0.4s;
 		transform: translateY(200px);
 	}
 	.container .box:hover .content h2{
         transform: translateY(0);
-		transition-delay: 0.6s;
+		transition-delay: 0.5s;
 	}
 	.container .box .content p{
 		color: #fff;
 		font-size: 14px;
-		transition: 0.5s;
+		transition: 0.4s;
 		transform: translateY(200px);
 	}
 	.container .box:hover .content p{
         transform: translateY(0);
-		transition-delay: 0.7s;
+		transition-delay: 0.6s;
 	}
