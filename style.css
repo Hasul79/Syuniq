@@ -151,7 +151,7 @@ nav ul li a {
 	background-size: cover;
 }
 .img6 {
-    background-image:url('/img/Kapan_collage.jpg') ;
+    background-image:url('./img/Kapan_collage.jpg') ;
 	background-size: cover;
 }
 .card {
