@@ -5,15 +5,53 @@ body {
 }
 h1{
 	color:rgb(54, 99, 54);
-	font-size: 30px;
+	font-size: 35px;
 	text-align: center;
 	letter-spacing: 2px;
 	
 }
+.light-button {
+    position:relative ;
+	left: 520px;
+	margin-top: 10px;
+	padding:15px 30px;
+    font-size: 25px;
+    letter-spacing: 9px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    font-weight:900;
+    background-color:transparent ;
+    color:#fff;
+    transition:background-color 1s, color 1s;
+    
+}
+.light-button:hover {
+    background-color: #fff;
+    color: #000;
+}
+.light-button::after {
+    content:"";
+    position:absolute ;
+    left: 0;
+    bottom: -45%;
+    background-color:transparent ;
+    height:50%;
+    width:100%;
+    transform:perspective(25px) rotateX(40deg) scale(1.2, 0.45);
+    filter:blur(17px);
+    transition:background-color 1s;
+}
+.light-button:hover::after {
+    background-color:#fff;
+}
+
+
+
+
 
 ul {
 position: absolute;
-top: 50%;
+top: 67%;
 left: 50%;
 transform: translate(-50%, -50%);
 margin: 0;
